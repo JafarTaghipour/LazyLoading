@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>
+        Lazy load example
+    </title>
+</h:head>
+<h:body>
+    <h:form id="form">
+        <p:dataTable id="lazyLoad" var="employee" value="#{lazyBean.lazyModel}" selection="#{lazyBean.selectedEmployee}"
+                     lazy="true" paginator="true" rows="1" selectionMode="single">
+            <p:column headerText="FirstName" filterBy="#{employee.firstName}" sortBy="#{employee.firstName}">
+                <h:outputText value="#{employee.firstName}"/>
+            </p:column>
+            <p:column headerText="LastName" filterBy="#{employee.lastName}" sortBy="#{employee.lastName}">
+                <h:outputText value="#{employee.lastName}"/>
+            </p:column>
+            <p:column headerText="Salary" filterBy="#{employee.salary}" sortBy="#{employee.salary}">
+                <h:outputText value="#{employee.salary}"/>
+            </p:column>
+        </p:dataTable>
+    </h:form>
+
+</h:body>
+</html>
