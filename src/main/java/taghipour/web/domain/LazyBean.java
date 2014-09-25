@@ -1,8 +1,6 @@
-package ir.javagroup.web.domain;
+package taghipour.web.domain;
 
-import ir.javagroup.domain.Employee;
-import ir.javagroup.web.domain.EmployeeLazyDataModel;
-import org.hibernate.SessionFactory;
+import taghipour.domain.Employee;
 import org.primefaces.model.LazyDataModel;
 
 import javax.annotation.PostConstruct;

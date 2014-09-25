@@ -1,10 +1,8 @@
-package ir.javagroup.web.domain;
+package taghipour.web.domain;
 
-import ir.javagroup.dao.EmployeeDao;
-import ir.javagroup.domain.Employee;
-import ir.javagroup.web.sorter.LazySorter;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
+import taghipour.dao.EmployeeDao;
+import taghipour.domain.Employee;
+import taghipour.web.sorter.LazySorter;
 import org.primefaces.model.LazyDataModel;
 import org.primefaces.model.SortOrder;
 

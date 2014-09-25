@@ -1,7 +1,6 @@
-package ir.javagroup.dao;
+package taghipour.dao;
 
-import ir.javagroup.domain.Employee;
-import org.hibernate.HibernateException;
+import taghipour.domain.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

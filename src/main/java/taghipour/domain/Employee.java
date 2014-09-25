@@ -1,4 +1,4 @@
-package ir.javagroup.domain;
+package taghipour.domain;
 
 /**
  * Created by jafar on 8/15/14.

@@ -1,6 +1,6 @@
-package ir.javagroup.web.sorter;
+package taghipour.web.sorter;
 
-import ir.javagroup.domain.Employee;
+import taghipour.domain.Employee;
 import org.primefaces.model.SortOrder;
 
 import java.lang.reflect.Field;
